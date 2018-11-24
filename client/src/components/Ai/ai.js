@@ -1,14 +1,12 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
-
-class Home extends Component {
+class Ai extends Component {
   render() {
     return (
       <div>
 
-
-        <ul>
+       <ul>
           <li><Link to='/'>Home</Link></li>
           <li><Link to='/about'>About</Link></li>
           <li><Link to='/form'>Forms</Link></li>
@@ -16,16 +14,11 @@ class Home extends Component {
           <li><Link to='/cloudnative'>cloudNative</Link></li>
         </ul>
 
+        <h1>This is Artificial intelligence page</h1>
 
-        <h1>This is home page</h1>
       </div>
     );
   }
 }
 
-
-
-// export default withStyles(styles)(DenseAppBar);
-
-export default Home;
-
+export default Ai;

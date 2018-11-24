@@ -1,12 +1,16 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Routers from './Routes';
 
 class App extends Component {
   render() {
     return (
       <div>
-        Presidential CS Program 
+        <Routers />
+        <br />
+        <br />
+
+        Presidential CS Program
       </div>
     );
   }
