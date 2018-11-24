@@ -62,7 +62,7 @@ Unpacking objects: 100% (62/62), done.
 
 From https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY
 
-* [new branch]      master     -> upstream/master
+* [new branch]      master     -> main/master
 
 
 
