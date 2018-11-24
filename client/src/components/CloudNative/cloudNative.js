@@ -1,12 +1,10 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
-
-class Home extends Component {
+class CloudNative extends Component {
   render() {
     return (
       <div>
-
 
         <ul>
           <li><Link to='/'>Home</Link></li>
@@ -16,16 +14,11 @@ class Home extends Component {
           <li><Link to='/cloudnative'>cloudNative</Link></li>
         </ul>
 
+        <h1>This is Cloud Native page</h1>
 
-        <h1>This is home page</h1>
       </div>
     );
   }
 }
 
-
-
-// export default withStyles(styles)(DenseAppBar);
-
-export default Home;
-
+export default CloudNative;
